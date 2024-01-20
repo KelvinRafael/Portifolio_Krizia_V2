@@ -1,0 +1,417 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+}
+
+:root{
+    /* --color_font: #407168; */
+    --color_font: #000000;
+}
+
+body{
+    background: linear-gradient(360deg, #472BEF 0%, rgba(7, 172, 106, 0.7) 35%, #98EDDA 100%);
+    /* background: linear-gradient(345deg, rgba(2,0,36,1) 0%, rgba(106,9,121,0.41360294117647056) 35%, rgba(0,212,255,1) 100%); */
+    /* background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-textura-empoeirado-grunge_1048-9793.jpg?w=740&t=st=1700944698~exp=1700945298~hmac=5e609ad2ea91a0228a3b359031cbb619b47c1ebe80f6e42376fcf9f46415fd36'); */
+    /* z-index: -1; */
+    /* position: absolute; */
+    /* color: white; */
+}
+
+
+.navCarrossel{
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.navCarrossel img{
+    width: 100%;
+}
+
+/* =========================Primeira sessão - Areas============================== */
+
+#div_areas{
+    width: 80%;
+    /* border-top: 1px solid #407168;
+    border-bottom: 1px solid #407168; */
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin: auto;
+    
+}
+
+#div_areas ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+}
+
+#div_areas ul li{
+    font-size: 1.5vw;
+    text-align: center;
+    list-style: none;
+    
+}
+
+/* =========================Segunda sessão - Carrossel============================== */
+
+#div_carrossel{
+    display: flex;
+    margin-top: 1vw;
+    /* position: relative; */
+}
+
+.secCarrosselInsta{
+    width: 80%;
+    margin: auto;
+    padding: 2vw;
+}
+
+.c-carrosselInsta{
+    
+    border-top-right-radius: 4vw;
+    border-bottom-left-radius: 4vw;
+    box-shadow: 0px 0vw 1vw black;
+}
+
+
+/* =========================Terceira sessão - Serviços============================== */
+
+#div_servicos{
+    margin-top: 3vw;
+    text-align: center;   
+
+}
+
+#div_servicos h2{
+    font-size: 2vw;
+}
+
+#lista_servicos1{
+    display: flex;
+    justify-content: center;
+}
+
+#div_servicos h2 {
+    width: 100%;
+    color: var(--color_font);
+    /* border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000; */
+    background-color: white;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    margin: auto;
+    /* margin-bottom: 2vw; */
+}
+
+#cards_servicos{
+    display: flex;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 2vw;
+}
+
+#cards_servicos div{
+    background-color: white;
+}
+
+#cards_servicos div{
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+
+#cards_servicos h3{
+    color: rgb(4, 189, 102);
+}
+
+.card{
+    padding-bottom: 2vw;
+    box-shadow: 0vw 1vw 1vw rgb(0, 180, 75, 0.3);
+    border-radius: 1vw;
+    /* border: 2px solid rgb(0, 204, 255, 0.1); */
+}
+
+.card div{
+    width: 15vw;
+
+}
+
+.card img{
+    width: 20vw;
+    position: relative;
+    border-start-start-radius: 1.5vw;
+    border-start-end-radius: 1.5vw;
+}
+
+#div_servicos h2{
+    margin-top: 2vw;
+}
+
+/* =========================Quarta sessão - Intagram============================== */
+
+#div_instagram{
+    text-align: center;
+    /* background-color: rgba(7, 172, 106, 0.7) 35%; */
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    box-shadow: 0vw 1vw 4vw hsl(0, 0%, 41%, 0.4);
+    /* margin-top: 2vw; */
+}
+
+#div_instagram p {
+    font-size: 1.5vw;
+}
+
+#div_instagram h2 {
+    color: rgb(56, 56, 56);
+    animation: color_h2 3s infinite normal;
+}
+
+#div_cards{
+
+    display: flex;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 2vw;
+    margin-top: 1vw;
+
+    & img{
+        margin: auto;
+        padding: 1vw;
+    }
+}
+
+#carrossel_intagram{
+    display: flex;
+    text-align: center;
+    margin-top: 2vw;
+    justify-content: center;
+
+}
+
+
+#carrossel_intagram .post_insta_f1{
+    width: 18%;
+    border-radius: 2vw;
+    margin: 0;
+    box-shadow: 0vw 1vw rgb(56, 56, 56);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    animation: movementRight 2s;
+}
+
+#carrossel_intagram .post_insta_f2{
+    width: 18%;
+    border-radius: 2vw;
+    margin: 0;
+    box-shadow: 0vw 1vw rgb(56, 56, 56);
+    margin-left: 1vw;
+    margin-right: 1vw;
+    animation: movementLeft 2s;
+}
+
+.div_right{
+    margin: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+    animation-delay: 4s;
+}
+
+.arrow{
+    height: 3vw;
+    background-color: white;
+    box-shadow: 0vw 0vw 1vw rgba(0, 255, 106, 0.6);
+    border-radius: 50%;
+    filter: brightness(2.3);
+    animation: esvanecer 4s;
+}
+
+#arrowLeft{
+    rotate: 180deg;
+    display: none;
+}
+
+.post_insta_f2{
+    display: none;
+}
+
+.arrow:hover{
+    background-color: rgb(7, 185, 111);
+}
+
+@keyframes esvanecer {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes movementRight {
+    
+    from{
+        opacity: 0;
+        transform: translate(10vw);
+    }
+
+    /* 50%{
+        opacity: 0.5;
+        transform: translate(5vw);
+    } */
+
+    to{
+        opacity: 1;
+        transform: translate(0vw);
+    }
+
+}
+
+@keyframes movementLeft {
+    
+    from{
+        opacity: 0;
+        transform: translate(-10vw);
+    }
+
+    /* 50%{
+        opacity: 0.5;
+        transform: translate(5vw);
+    } */
+
+    to{
+        opacity: 1;
+        transform: translate(0vw);
+    }
+
+}
+
+/* =========================Quinta sessão - Video apresentação Instagram============================== */
+
+.p_more{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: rgb(56, 56, 56);
+    
+}
+
+#arrow_gif{
+    width: 3%;
+    rotate: 120deg;
+    /* filter: brightness(2); */
+    filter: grayscale(10);
+
+}
+
+#video_insta{
+    text-align: center;
+    background-color: black;
+
+    & p{
+        padding-top: 1vw;
+    }
+    
+}
+
+video {
+
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    border-radius: 2vw;
+}
+
+a{
+    color: white;
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #000000;
+    padding-bottom: 2vw;
+    text-align: center;
+}
+
+footer div{
+    color: white;
+}
+
+#icone{
+    width: 1%;
+    margin-top: 1vw;
+    padding-right: 0.4vw;
+    /* height: 2%; */
+}
+
+#desenvolvedor{
+    font-size: 0.8vw;
+    text-align: end;
+    padding-right: 2vw;
+    padding-top: 2vw;
+}
+
+#desenvolvedor a{
+    color: rgb(226, 226, 19);
+}
+
+/* =========================Media Query============================== */
+
+@media (max-width: 600px) {
+
+    #cards_servicos{
+        display: block;
+        background-color: white;
+        margin: auto;
+        text-align: center;
+        padding-bottom: 2vw;
+    }
+
+    #tituloServicos{
+        background-color: red;
+    }
+
+    .card{
+        padding-top: 1vw;
+
+    }
+
+    
+    .card p {
+        width: 100%;
+    }
+
+    .card div {
+        width: 80%;
+    }
+
+    #div_areas ul li{
+        font-size: 2.5vw;
+    }
+
+    #icone{
+        /* width: 2vw; */
+    }
+
+    #whatsapp{
+        font-size: 2vw;
+    }
+
+    #paragrafo{
+        font-size: 2vw;
+    }
+
+    #dicas{
+        font-size: 4vw;
+    }
+}
+
